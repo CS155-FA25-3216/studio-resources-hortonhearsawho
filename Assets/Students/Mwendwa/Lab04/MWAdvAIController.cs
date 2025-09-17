@@ -3,9 +3,9 @@ using UnityEngine;
 using UnityEngine.AI;
 
 
-public class AdvAIController : MonoBehaviour
+public class MWAdvAIController : MonoBehaviour
 {
-    Movement movement;
+    MwenMovement movement;
 
     Transform playerTransform;
 
@@ -16,7 +16,7 @@ public class AdvAIController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        movement = GetComponent<Movement>();
+        movement = GetComponent<MwenMovement>();
         playerTransform = GameObject.FindWithTag("Player").transform;
         origin = transform.position;
     }

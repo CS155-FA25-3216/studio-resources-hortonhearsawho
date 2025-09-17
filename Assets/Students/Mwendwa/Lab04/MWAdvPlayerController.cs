@@ -1,12 +1,12 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class AdvPlayerController : MonoBehaviour
+public class MWAdvPlayerController : MonoBehaviour
 {
-    Movement movement;
+    MwenMovement movement;
     void Start()
     {
-        movement = GetComponent<Movement>();
+        movement = GetComponent<MwenMovement>();
     }
 
     void OnMove(InputValue value)
