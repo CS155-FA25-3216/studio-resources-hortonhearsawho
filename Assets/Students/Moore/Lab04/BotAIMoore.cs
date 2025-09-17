@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class BotAI : MonoBehaviour
+public class BotAIMoore : MonoBehaviour
 {
     private GameObject player;
     private Movement movement;
@@ -9,7 +9,7 @@ public class BotAI : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        movement = GetComponent<Movement>();
+        movement = GetComponent<MovementMoore>();
         origin = transform.position;
 
         player = GameObject.FindGameObjectWithTag("Player");

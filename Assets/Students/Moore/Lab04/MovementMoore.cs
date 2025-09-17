@@ -1,7 +1,7 @@
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class Movement : MonoBehaviour
+public class MovementMoore : MonoBehaviour
 {
     [SerializeField] float acceleration = 20f;
     [SerializeField] float maxSpeed = 10f;
